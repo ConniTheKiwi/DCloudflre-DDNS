@@ -228,4 +228,5 @@ fi
 
 do_record_update
 echo "Record updated."
+DWebhook "Updated DDNS with ip $WAN_addr"
 exit 0
